@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Hello from './components/Hello/Helloworld'
+import IncDecBtn from './components/Buttons/incrementDecrement';
+import SearchBar from './components/SearchBar/searchBar';
+import ToggleGenre from './components/Togglegenre/Togglegenre';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       {Hello}
+      <IncDecBtn />
+      <SearchBar/>
+      <ToggleGenre/>
+     
     </div>
   );
 }
-
 export default App;
