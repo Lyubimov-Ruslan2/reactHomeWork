@@ -1,0 +1,6 @@
+.movie-list {
+  width: 85vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grip-gap: 57px;
+}
