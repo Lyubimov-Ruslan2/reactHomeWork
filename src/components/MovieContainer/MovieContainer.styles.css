@@ -1,0 +1,11 @@
+.movie-list {
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 57px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
