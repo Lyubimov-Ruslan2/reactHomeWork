@@ -39,6 +39,7 @@
 .flex-row {
   display: flex;
   justify-content: space-between;
+  margin-left: 45px;
 }
 
 .Sorting {

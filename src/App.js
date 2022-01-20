@@ -10,9 +10,9 @@ function App() {
       <ErrorBoundary>
         <Header />
         <ToggleGenre />
+        <MovieContainer />
       </ErrorBoundary>
-      <tr className="bord" />
-      <MovieContainer />
+
       <Footer>netflixroulette</Footer>
     </div>
   );
